@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        body {
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .div1{
+            background-image: linear-gradient(-45deg, #ff6f00, #ffbb00);
+            padding: 0.4rem 2rem 1rem;
+            border-radius: 20px;
+            margin: 2rem 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .div2 {
+            width: 50%;
+        }
+
+        button{
+            background-color: white;
+            border: 0;
+            border-radius: 10px;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            width: 100%;
+            cursor: pointer;
+            color: #ff6f00;
+            font-weight: 600;
+            align-items: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <h1>Testando gradiente</h1>
+            <h2>Subtítulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos et veniam natus est deserunt aliquid culpa laborum minima voluptatem, explicabo eius dolorem in neque tenetur iure provident optio praesentium dolorum?</p>
+        </div>
+        <div class="div2">
+            <div>
+                <h1>Testando flexbox</h1>
+                <h2>Aloooo meu povão</h2>
+            </div>
+            <button type="submit">Continuar</button>
+        </div>
+    </div>
+    <div class="div1">
+        <div>
+            <h1>Olá jovem!</h1>
+            <h2>Você está procurando um designer?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo ipsa repellendus in facere qui tenetur quisquam quasi ex? Dolorum libero reiciendis facilis dignissimos laudantium in similique ad consequuntur labore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam laborum ratione quidem eaque, illum soluta esse similique fugit minus corporis placeat exercitationem! Soluta, quas esse doloribus distinctio unde deleniti!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, pariatur maiores dicta aliquid at nisi beatae veniam laboriosam a atque dolorum nemo cum deleniti porro incidunt quae ab quibusdam sit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi unde dicta enim cupiditate perferendis veritatis fugit qui excepturi nam! Expedita debitis corporis commodi quis explicabo facilis beatae vero iusto.</p>
+        </div>
+    </div>
+</body>
+</html>
